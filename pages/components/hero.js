@@ -12,7 +12,7 @@ export default function Hero() {
           </h1>
           <h2 className="font-medium text-secondary text-sm px-y mb-5 lg:text-2xl text-slate-500">Full Stack Developer & Data Analyst</h2>
           <p className="text-secondary text-sm mb-10 leading-relaxed">
-            I love to learn something new, fast learner, work well with others and also good in health.
+            If you choose, you can be joyful every moment of your life. It’s time you made your choice.
             <span className="text-dark font-bold"> Horas!</span>
           </p>
 

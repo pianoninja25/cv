@@ -1,7 +1,9 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import About from './components/about';
 import Header from './components/header';
 import Hero from './components/hero';
+import Portfolio from './components/portfolio';
 
 export default function Home() {
   return (
@@ -19,24 +21,16 @@ export default function Home() {
             <Hero />
           </section>
 
-          <section id="about" className="py-80 w-full bg-red-500">
-            ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT
-            ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT
-            ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT
-            ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT
+          <section id="about" className="py-20">
+            <About />
           </section>
 
-          <section id="portfolio" className="py-2 h-screen0 w-full bg-yellow-500">
-            Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio
-            Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio
-            Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio
-            Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio
-            Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio Portfolio
-            Portfolio Portfolio
+          <section id="portfolio" className="py-30 bg-slate-200">
+            <Portfolio />
           </section>
-          <section id="contact" className="py-20 w-ful h-screen bg-green-500">
+          {/* <section id="contact" className="py-20 w-ful h-screen bg-green-500">
             Contact
-          </section>
+          </section> */}
         </main>
       </div>
     </>
