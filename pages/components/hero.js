@@ -1,26 +1,29 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Hero() {
   return (
     <div className="container">
       <div className="flex flex-wrap">
-        <div className="w-full self-center px-4 lg:w-1/2">
+        <div className="w-full self-center p-4 lg:w-1/2">
           <h1 className="text-base font-semibold text-primary md:text-xl">
-            Greetings! <span className="block font-bold text-dark text-4xl mt-1 lg:text-5xl">I am Leonard Sianipar.</span>
+            Greetings, I am
+            <span className="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Leonard Sianipar.</span>
           </h1>
           <h2 className="font-medium text-secondary text-lg mb-5 lg:text-2xl">
-            Web Developer & <span className="text-yellow-400">OSS Engineer</span>
+            Full Stack Developer & <span className="text-yellow-400">Data Analyst</span>
           </h2>
           <p className="font-medium text-secondary mb-10 leading-relaxed">
-            Belajar web programming itu mudah dan menyenangkan bukan. <span className="text-dark font-bold">Bukan!</span>
+            Love to learn something new, fast learner, work well with others and also good in health.
+            <span className="text-dark font-bold"> Keep Smiling!</span>
           </p>
 
-          <a
-            href="#"
+          <Link
+            href="https://wa.me/+6289654515543"
             className="text-base font-semibold py-3 px-8 rounded-full text-white bg-primary hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
           >
-            Hubungi Saya
-          </a>
+            Get in Touch
+          </Link>
         </div>
         <div className="w-full self-end px-4 lg:w-1/2">
           <div className="relative mt-10 z-10 lg:mt-0 lg:right-0">

@@ -12,22 +12,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="w-full h-[1400px] font-poppins bg-slate-100">
+      <div className="w-full h-[1400px]">
         <Header />
         <main className="absolute top-0 ">
           <section id="home" className="pt-20">
-            {/* <Hero /> */}
+            <Hero />
           </section>
-          <section id="homes" className="container py-40">
-            <h1 className="text-3xl font-bold underline">Hello world!</h1>
-            <h1 className="text-3xl font-bold underline">Hello world!</h1>
-            <h1 className="text-3xl font-bold underline">Hello world!</h1>
-            <h1 className="text-3xl font-bold underline">Hello world!</h1>
-            <h1 className="text-3xl font-bold underline">Hello world!</h1>
-            <h1 className="text-3xl font-bold underline">Hello world!</h1>
-            <h1 className="text-3xl font-bold underline">Hello world!</h1>
-            Home
-          </section>
+
           <section id="about" className="py-80 w-full bg-red-500">
             ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT
             ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT

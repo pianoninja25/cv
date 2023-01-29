@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 html {
-  @apply scroll-smooth;
+  @apply scroll-smooth bg-slate-100 font-poppins;
 }
 
 .hamburger-line {

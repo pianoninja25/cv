@@ -24,7 +24,7 @@ export default function Header() {
   }
 
   return (
-    <div className="fixed top-0 z-50 w-full h-12 shadow-md after:backdrop-blur-lg bg-white/30">
+    <div className="fixed top-0 z-50 w-full h-12 shadow-md backdrop-blur-lg bg-white/30">
       <div className="container">
         <div className="relative flex items-center justify-between p-1.5" ref={menuRef}>
           <a href="#" className="font-lobster font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-[#ec00b1] to-[#32bcad]">
@@ -37,7 +37,7 @@ export default function Header() {
           </button>
 
           <nav
-            className={`absolute top-full right-2 py-2 flex-col w-full max-w-[150px] rounded-md shadow-md after:backdrop-blur-lg z-[999] bg-white/70 lg:flex-row lg:static lg:p-0 lg:max-w-sm lg:shadow-none lg:rounded-none lg:bg-transparent  
+            className={`absolute top-full right-2 py-2 flex-col w-full max-w-[150px] rounded-md shadow-md bg-white lg:flex-row lg:static lg:p-0 lg:max-w-sm lg:shadow-none lg:rounded-none lg:bg-transparent  
           ${open ? 'flex' : 'hidden lg:flex'}`}
           >
             {[
