@@ -17,6 +17,7 @@ export default function About() {
             <a
               href="https://youtube.com/loustark"
               target="_blank"
+              rel="noreferrer"
               class="w-9 h-9 mr-3 rounded-full flex items-center justify-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
             >
               <svg role="graphics-document" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -28,6 +29,7 @@ export default function About() {
             <a
               href="https://instagram.com/leonasianipar"
               target="_blank"
+              rel="noreferrer"
               class="w-9 h-9 mr-3 rounded-full flex items-center justify-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
             >
               <svg role="graphics-document" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -39,6 +41,7 @@ export default function About() {
             <a
               href="https://instagram.com/leonasianipar"
               target="_blank"
+              rel="noreferrer"
               class="w-9 h-9 mr-3 rounded-full flex items-center justify-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
             >
               <svg role="graphics-document" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -50,6 +53,7 @@ export default function About() {
             <a
               href="https://instagram.com/leonasianipar"
               target="_blank"
+              rel="noreferrer"
               class="w-9 h-9 mr-3 rounded-full flex items-center justify-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
             >
               <svg role="graphics-document" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
