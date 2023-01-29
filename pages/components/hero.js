@@ -8,26 +8,24 @@ export default function Hero() {
         <div className="w-full self-center p-4 lg:w-1/2">
           <h1 className="text-base font-semibold text-primary md:text-xl">
             Greetings, I am
-            <span className="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Leonard Sianipar.</span>
+            <span className="block font-bold text-dark text-3xl mt-1 lg:text-5xl">Leonard Sianipar</span>
           </h1>
-          <h2 className="font-medium text-secondary text-lg mb-5 lg:text-2xl">
-            Full Stack Developer & <span className="text-yellow-400">Data Analyst</span>
-          </h2>
-          <p className="font-medium text-secondary mb-10 leading-relaxed">
-            Love to learn something new, fast learner, work well with others and also good in health.
-            <span className="text-dark font-bold"> Keep Smiling!</span>
+          <h2 className="font-medium text-secondary text-sm px-y mb-5 lg:text-2xl text-slate-500">Full Stack Developer & Data Analyst</h2>
+          <p className="text-secondary text-sm mb-10 leading-relaxed">
+            I love to learn something new, fast learner, work well with others and also good in health.
+            <span className="text-dark font-bold"> Horas!</span>
           </p>
 
           <Link
             href="https://wa.me/+6289654515543"
-            className="text-base font-semibold py-3 px-8 rounded-full text-white bg-primary hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+            className="text-base font-semibold py-2 px-4 rounded-2xl text-white bg-primary hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
           >
             Get in Touch
           </Link>
         </div>
         <div className="w-full self-end px-4 lg:w-1/2">
           <div className="relative mt-10 z-10 lg:mt-0 lg:right-0">
-            <img src="/leonard.png" alt="Leonard Sianipar" className="max-w-xs mx-auto" />
+            <Image src="/leonard.png" alt="Leonard Sianipar" width={300} height={300} className="max-w-xs mx-auto" />
             <span className="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
               <svg width="250" height="250" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path
