@@ -17,7 +17,7 @@ export default function Portfolio() {
       <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
         <div class="mb-12 p-4 md:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
-            <Image src="portfolio/1.png" alt="Event Sales Bali" width="w-full" />
+            <Image src="/portfolio/1.png" width={300} height={300} alt="Event Sales Bali" />
           </div>
           <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Event Sales Dashboard</h3>
           <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores temporibus rem?</p>
@@ -25,7 +25,7 @@ export default function Portfolio() {
 
         <div class="mb-12 p-4 md:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
-            <Image src="portfolio/2.png" alt="Network Status" width="w-full" />
+            <Image src="/portfolio/2.png" width={300} height={300} alt="Network Status" />
           </div>
           <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Network Status Dashboard</h3>
           <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores temporibus rem?</p>
@@ -33,7 +33,7 @@ export default function Portfolio() {
 
         <div class="mb-12 p-4 md:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
-            <Image src="portfolio/3.png" alt="Congestion" width="w-full" />
+            <Image src="/portfolio/3.png" width={300} height={300} alt="Congestion" />
           </div>
           <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Congestion Dashboard</h3>
           <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores temporibus rem?</p>
@@ -41,7 +41,7 @@ export default function Portfolio() {
 
         <div class="mb-12 p-4 md:w-1/2">
           <div class="rounded-md shadow-md overflow-hidden">
-            <Image src="portfolio/4.png" alt="CS Core Performance" width="w-full" />
+            <Image src="/portfolio/4.png" width={300} height={300} alt="CS Core Performance" />
           </div>
           <h3 class="font-semibold text-xl text-dark mt-5 mb-3">CS Core Performance</h3>
           <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores temporibus rem?</p>
