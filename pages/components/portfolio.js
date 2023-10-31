@@ -67,9 +67,9 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/B.PNG" width={1000} height={1000} alt="MTTR/MTTE Dashboard" />
+            <Image src="/portfolio/B.PNG" width={1000} height={1000} alt="MTTR & MTTE Dashboard" />
           </div>
-          <h3 className="font-semibold text-xl text-dark mt-5 mb-3">MTTR/MTTE Dashboard</h3>
+          <h3 className="font-semibold text-xl text-dark mt-5 mb-3">MTTR & MTTE Dashboard</h3>
           <p className="font-medium text-base text-secondary">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores temporibus rem?
           </p>
@@ -94,16 +94,7 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/E.PNG" width={1000} height={1000} alt="B2B Dashboard" />
-          </div>
-          <h3 className="font-semibold text-xl text-dark mt-5 mb-3">B2B Dashboard</h3>
-          <p className="font-medium text-base text-secondary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores temporibus rem?
-          </p>
-        </div>
-        <div className="mb-12 p-4 md:w-1/2">
-          <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/F.PNG" width={1000} height={1000} alt="BO Load Dashboard" />
+            <Image src="/portfolio/E.PNG" width={1000} height={1000} alt="BO Load Dashboard" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">BO Load Dashboard</h3>
           <p className="font-medium text-base text-secondary">
@@ -112,7 +103,7 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/G.PNG" width={1000} height={1000} alt="Single Site MTTR Achievement" />
+            <Image src="/portfolio/F.PNG" width={1000} height={1000} alt="Single Site MTTR Achievement" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">Single Site MTTR Achievement</h3>
           <p className="font-medium text-base text-secondary">
@@ -121,7 +112,7 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/H.PNG" width={1000} height={1000} alt="Ticket Link Down" />
+            <Image src="/portfolio/G.PNG" width={1000} height={1000} alt="Ticket Link Down" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">Ticket Link Down</h3>
           <p className="font-medium text-base text-secondary">
@@ -130,7 +121,7 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/I.PNG" width={1000} height={1000} alt="Incident Dashboard" />
+            <Image src="/portfolio/H.PNG" width={1000} height={1000} alt="Incident Dashboard" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">Incident Dashboard</h3>
           <p className="font-medium text-base text-secondary">
@@ -139,9 +130,18 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/J.PNG" width={1000} height={1000} alt="Site Down Dashboard" />
+            <Image src="/portfolio/I.PNG" width={1000} height={1000} alt="Site Down Dashboard" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">Site Down Dashboard</h3>
+          <p className="font-medium text-base text-secondary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores temporibus rem?
+          </p>
+        </div>
+        <div className="mb-12 p-4 md:w-1/2">
+          <div className="rounded-md shadow-md overflow-hidden">
+            <Image src="/portfolio/J.PNG" width={1000} height={1000} alt="B2B Dashboard" />
+          </div>
+          <h3 className="font-semibold text-xl text-dark mt-5 mb-3">B2B Dashboard</h3>
           <p className="font-medium text-base text-secondary">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores temporibus rem?
           </p>
