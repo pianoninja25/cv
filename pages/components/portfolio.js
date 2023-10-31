@@ -55,9 +55,10 @@ export default function Portfolio() {
           </p>
         </div>
 
+        {/* DNOC DASHBOARD */}
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/A.png" width={1000} height={1000} alt="CS Core Performance" />
+            <Image src="/portfolio/A.PNG" width={1000} height={1000} alt="CS Core Performance" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">CS Core Performance</h3>
           <p className="font-medium text-base text-secondary">
@@ -66,7 +67,7 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/B.png" width={1000} height={1000} alt="CS Core Performance" />
+            <Image src="/portfolio/B.PNG" width={1000} height={1000} alt="CS Core Performance" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">CS Core Performance</h3>
           <p className="font-medium text-base text-secondary">
@@ -75,7 +76,7 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/C.png" width={1000} height={1000} alt="CS Core Performance" />
+            <Image src="/portfolio/C.PNG" width={1000} height={1000} alt="CS Core Performance" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">CS Core Performance</h3>
           <p className="font-medium text-base text-secondary">
@@ -84,7 +85,7 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/D.png" width={1000} height={1000} alt="CS Core Performance" />
+            <Image src="/portfolio/D.PNG" width={1000} height={1000} alt="CS Core Performance" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">CS Core Performance</h3>
           <p className="font-medium text-base text-secondary">
@@ -93,7 +94,7 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/E.png" width={1000} height={1000} alt="CS Core Performance" />
+            <Image src="/portfolio/E.PNG" width={1000} height={1000} alt="CS Core Performance" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">CS Core Performance</h3>
           <p className="font-medium text-base text-secondary">
@@ -102,7 +103,7 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/F.png" width={1000} height={1000} alt="CS Core Performance" />
+            <Image src="/portfolio/F.PNG" width={1000} height={1000} alt="CS Core Performance" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">CS Core Performance</h3>
           <p className="font-medium text-base text-secondary">
@@ -111,7 +112,7 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/G.png" width={1000} height={1000} alt="CS Core Performance" />
+            <Image src="/portfolio/G.PNG" width={1000} height={1000} alt="CS Core Performance" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">CS Core Performance</h3>
           <p className="font-medium text-base text-secondary">
@@ -120,7 +121,7 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/H.png" width={1000} height={1000} alt="CS Core Performance" />
+            <Image src="/portfolio/H.PNG" width={1000} height={1000} alt="CS Core Performance" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">CS Core Performance</h3>
           <p className="font-medium text-base text-secondary">
@@ -129,7 +130,7 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/I.png" width={1000} height={1000} alt="CS Core Performance" />
+            <Image src="/portfolio/I.PNG" width={1000} height={1000} alt="CS Core Performance" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">CS Core Performance</h3>
           <p className="font-medium text-base text-secondary">
@@ -138,7 +139,7 @@ export default function Portfolio() {
         </div>
         <div className="mb-12 p-4 md:w-1/2">
           <div className="rounded-md shadow-md overflow-hidden">
-            <Image src="/portfolio/J.png" width={1000} height={1000} alt="CS Core Performance" />
+            <Image src="/portfolio/J.PNG" width={1000} height={1000} alt="CS Core Performance" />
           </div>
           <h3 className="font-semibold text-xl text-dark mt-5 mb-3">CS Core Performance</h3>
           <p className="font-medium text-base text-secondary">
